@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.sidebar{
+    height:100vh;
+    position:fixed;
+    background-color: aqua;
+    top:70px;
+    left:0;
+    bottom:0;
+    width:50px;
+}
