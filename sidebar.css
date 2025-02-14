@@ -2,9 +2,27 @@
 .sidebar{
     height:100vh;
     position:fixed;
-    background-color: aqua;
+    background-color: whitesmoke;
     top:70px;
     left:0;
     bottom:0;
-    width:55px;
+    width:60px;
+    font-size:10px;
+}
+.sidebar-items{
+    height:80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar-items img{
+    width:30px;
+    margin-bottom:5px;
+}
+.sidebar-items:hover{
+    background-color: rgb(204, 203, 203);
+}
+.youtube-music{
+    text-align: center;
 }
