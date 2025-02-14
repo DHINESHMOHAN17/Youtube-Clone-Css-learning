@@ -8,20 +8,23 @@
     bottom:0;
     width:60px;
     font-size:10px;
+    z-index:40;
 }
 .sidebar-items{
+    font-family: Roboto;
     height:80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor:pointer;
 }
 .sidebar-items img{
-    width:30px;
+    height: 24px;
     margin-bottom:5px;
 }
 .sidebar-items:hover{
-    background-color: rgb(204, 203, 203);
+    background-color: rgb(234, 233, 233);
 }
 .youtube-music{
     text-align: center;
