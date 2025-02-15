@@ -21,9 +21,11 @@ body{
 }
 .channel-picture img{
     margin-left: 7px;
+    padding: 3px 4px;
     width:70%;
     border-radius: 50%;
     border: 1px solid black;
+    object-fit: cover;
 }
 .video-info{
     margin-top:10px;

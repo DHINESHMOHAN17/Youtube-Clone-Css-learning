@@ -18,6 +18,7 @@
     justify-content: center;
     align-items: center;
     cursor:pointer;
+    position: relative;
 }
 .sidebar-items img{
     height: 24px;
@@ -28,4 +29,21 @@
 }
 .youtube-music{
     text-align: center;
+}
+.sidebar-items .tooltip{
+    position: absolute;
+    z-index: 1000;
+    background-color: white;
+    padding:6px 6px;
+    color: black;
+    border-radius: 2px;
+    bottom:-1px;
+    left:30px;
+    opacity: 0;
+    transition: opacity .15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.sidebar-items:hover .tooltip{
+    opacity: 1;
 }
